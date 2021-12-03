@@ -1,5 +1,5 @@
 pub fn one() {
-    let input = include_str!("one-input.txt");
+    let input = include_str!("../inputs/one.txt");
     let nums: Vec<u32> = input.lines().map(|l| l.parse::<u32>().unwrap()).collect();
 
     println!("simple increase: {}", count_simple_incr(&nums));

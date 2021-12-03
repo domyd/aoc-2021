@@ -16,7 +16,7 @@ impl Position {
 }
 
 pub fn two() {
-    let input = include_str!("two-input.txt");
+    let input = include_str!("../inputs/two.txt");
     let mut pos = Position::new();
     for l in input.lines() {
         let command = l.split(' ').collect::<Vec<&str>>();
