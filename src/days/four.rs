@@ -67,8 +67,9 @@ impl Board {
     }
 }
 
+#[allow(dead_code)]
 pub fn four() {
-    let input = include_str!("../inputs/four.txt");
+    let input = include_str!("../inputs/04.txt");
     let lines: Vec<&str> = input.lines().filter(|l| !l.is_empty()).collect();
     let drawings: Vec<u8> = lines[0]
         .split(',')

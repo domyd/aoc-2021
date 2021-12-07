@@ -1,5 +1,6 @@
+#[allow(dead_code)]
 pub fn seven() {
-    let input = include_str!("../inputs/seven.txt");
+    let input = include_str!("../inputs/07.txt");
     let numbers: Vec<i32> = input.split(',').filter_map(|n| n.parse().ok()).collect();
 
     let (mut min_fuel, mut min_pos) = (i32::MAX, 0);

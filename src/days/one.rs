@@ -1,5 +1,6 @@
+#[allow(dead_code)]
 pub fn one() {
-    let input = include_str!("../inputs/one.txt");
+    let input = include_str!("../inputs/01.txt");
     let nums: Vec<u32> = input.lines().map(|l| l.parse::<u32>().unwrap()).collect();
 
     println!("simple increase: {}", count_simple_incr(&nums));

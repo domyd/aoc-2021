@@ -1,5 +1,6 @@
+#[allow(dead_code)]
 pub fn six() {
-    let input = include_str!("../inputs/six.txt");
+    let input = include_str!("../inputs/06.txt");
     let lines: Vec<&str> = input.lines().collect();
     let input: Vec<usize> = lines[0]
         .split(',')

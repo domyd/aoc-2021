@@ -1,5 +1,6 @@
+#[allow(dead_code)]
 pub fn three() {
-    let input = include_str!("../inputs/three.txt");
+    let input = include_str!("../inputs/03.txt");
     let lines = input.lines().collect::<Vec<&str>>();
     let nbits = lines[0].len();
 
