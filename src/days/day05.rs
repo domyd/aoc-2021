@@ -8,7 +8,7 @@ struct Position {
 }
 
 #[allow(dead_code)]
-pub fn five() {
+pub fn run() {
     let input = include_str!("../inputs/05.txt");
     let lines: Vec<&str> = input.lines().collect();
     let input: Vec<Vec<Position>> = lines

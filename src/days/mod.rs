@@ -1,19 +1,9 @@
-mod eight;
-mod five;
-mod four;
-pub mod nine;
-mod one;
-mod seven;
-mod six;
-mod three;
-mod two;
-
-pub use eight::eight;
-pub use five::five;
-pub use four::four;
-pub use nine::nine;
-pub use one::one;
-pub use seven::seven;
-pub use six::six;
-pub use three::three;
-pub use two::two;
+pub mod day01;
+pub mod day02;
+pub mod day03;
+pub mod day04;
+pub mod day05;
+pub mod day06;
+pub mod day07;
+pub mod day08;
+pub mod day09;

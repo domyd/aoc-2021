@@ -1,5 +1,5 @@
 #[allow(dead_code)]
-pub fn six() {
+pub fn run() {
     let input = include_str!("../inputs/06.txt");
     let lines: Vec<&str> = input.lines().collect();
     let input: Vec<usize> = lines[0]

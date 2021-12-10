@@ -16,7 +16,7 @@ impl Position {
 }
 
 #[allow(dead_code)]
-pub fn two() {
+pub fn run() {
     let input = include_str!("../inputs/02.txt");
     let mut pos = Position::new();
     for l in input.lines() {

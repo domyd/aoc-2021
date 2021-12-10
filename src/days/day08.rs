@@ -164,7 +164,8 @@ impl Segment {
     }
 }
 
-pub fn eight() {
+#[allow(dead_code)]
+pub fn run() {
     let input = include_str!("../inputs/08.txt");
     let input: Vec<(Vec<&str>, Vec<&str>)> = input
         .lines()

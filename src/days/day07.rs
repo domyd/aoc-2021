@@ -1,5 +1,5 @@
 #[allow(dead_code)]
-pub fn seven() {
+pub fn run() {
     let input = include_str!("../inputs/07.txt");
     let numbers: Vec<i32> = input.split(',').filter_map(|n| n.parse().ok()).collect();
 

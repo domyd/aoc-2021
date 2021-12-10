@@ -1,5 +1,5 @@
 #[allow(dead_code)]
-pub fn three() {
+pub fn run() {
     let input = include_str!("../inputs/03.txt");
     let lines = input.lines().collect::<Vec<&str>>();
     let nbits = lines[0].len();

@@ -97,7 +97,8 @@ impl Heightmap {
     }
 }
 
-pub fn nine() {
+#[allow(dead_code)]
+pub fn run() {
     let heightmap = {
         let input = include_str!("../inputs/09.txt");
         let lines: Vec<&str> = input.lines().collect();
