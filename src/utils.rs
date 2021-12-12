@@ -1,5 +1,6 @@
 use std::{collections::HashMap, fmt::Display};
 
+#[allow(dead_code)]
 pub fn print_hashmap_grid<V: Display>(map: &HashMap<(isize, isize), V>) {
     if map.is_empty() {
         eprintln!("map is empty");
